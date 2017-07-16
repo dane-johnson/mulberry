@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/dane-johnson/mulberry",
   "author": "Dane Johnson",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config.js index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
 }
