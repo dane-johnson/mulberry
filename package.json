@@ -10,7 +10,7 @@
     "mulberry": "./bin/mulberry.js"
   },
   "scripts": {
-    "start": "nodemon -r dotenv/config.js src/index.coffee",
+    "start": "coffee -cwo lib/ src/",
     "build": "coffee -c -o lib/ src/"
   },
   "dependencies": {
