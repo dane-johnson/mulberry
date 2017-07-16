@@ -7,13 +7,15 @@
   "author": "Dane Johnson",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -r dotenv/config.js index.js"
+    "start": "nodemon -r dotenv/config.js src/index.coffee",
+    "build": "coffee -c -o lib/ src/"
   },
   "dependencies": {
     "express": "^4.15.3",
     "socketio": "^1.0.0"
   },
   "devDependencies": {
+    "coffeescript": "^1.12.6",
     "dotenv": "^4.0.0",
     "nodemon": "^1.11.0"
   }
