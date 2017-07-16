@@ -6,6 +6,9 @@
   "repository": "https://github.com/dane-johnson/mulberry",
   "author": "Dane Johnson",
   "license": "MIT",
+  "bin": {
+    "mulberry": "./bin/mulberry.js"
+  },
   "scripts": {
     "start": "nodemon -r dotenv/config.js src/index.coffee",
     "build": "coffee -c -o lib/ src/"
