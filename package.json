@@ -7,13 +7,14 @@
   "author": "Dane Johnson",
   "license": "MIT",
   "scripts": {
-    "start": "node -r dotenv/config.js index.js"
+    "start": "nodemon -r dotenv/config.js index.js"
   },
   "dependencies": {
     "express": "^4.15.3",
     "socketio": "^1.0.0"
   },
   "devDependencies": {
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
   }
 }
