@@ -46,4 +46,5 @@ createProject = (name) ->
   # Add the installed version of Mulberry as a dependency
   install 'mulberry', MULBERRY_VERSION
 
-createProject process.argv[2]
+if process.argv[2] == 'init'
+  createProject process.argv[3]
