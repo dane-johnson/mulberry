@@ -2,7 +2,7 @@
   "name": "mulberry",
   "version": "0.1.0",
   "description": "A libre mobile party game platform.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "repository": "https://github.com/dane-johnson/mulberry",
   "author": "Dane Johnson",
   "license": "MIT",
