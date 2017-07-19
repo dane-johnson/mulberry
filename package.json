@@ -16,6 +16,7 @@
   "dependencies": {
     "express": "^4.15.3",
     "lodash": "^4.17.4",
+    "mulberry-client": "^0.1.2",
     "socketio": "^1.0.0"
   },
   "devDependencies": {
