@@ -6,9 +6,6 @@
   "repository": "https://github.com/dane-johnson/mulberry",
   "author": "Dane Johnson",
   "license": "MIT",
-  "bin": {
-    "mulberry": "./bin/mulberry.js"
-  },
   "scripts": {
     "start": "jitter src lib",
     "build": "coffee -co lib/ src/"
