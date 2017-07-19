@@ -51,4 +51,4 @@ if process.argv[2] == 'init'
   createProject process.argv[3]
 else
   exec 'redis-server'
-  log chalk.red 'Redis server running...'
+  log chalk.green 'Redis server running...'
