@@ -1,6 +1,7 @@
 path = require 'path'
 fs = require 'fs'
 chalk = require 'chalk'
+exec = require('child_process').exec
 execSync = require('child_process').execSync
 log = console.log
 
@@ -48,3 +49,6 @@ createProject = (name) ->
 
 if process.argv[2] == 'init'
   createProject process.argv[3]
+else
+  exec 'redis-server'
+  log chalk.red 'Redis server running...'
