@@ -12,8 +12,8 @@ createRoom = (gamemode) ->
   # Returns a unique identitfier for the room
   
   code = generateRoomCode() while code == undefined or client.exists(code) == 1
-  gamemode(room)
-  client.del(room)
+  gamemode(code)
+  client.del(code)
   
 module.exports =
   generateRoomCode: generateRoomCode

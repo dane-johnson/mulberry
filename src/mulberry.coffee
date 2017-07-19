@@ -4,8 +4,9 @@ chalk = require 'chalk'
 exec = require('child_process').exec
 execSync = require('child_process').execSync
 log = console.log
+server = './server'
 
-MULBERRY_VERSION = '0.0.0'
+MULBERRY_VERSION = '0.1.0'
 
 shouldUseYarn = () ->
   try
@@ -52,3 +53,4 @@ if process.argv[2] == 'init'
 else
   exec 'redis-server'
   log chalk.green 'Redis server running...'
+  execSync 'node src/server', {stdio:[0,1,2]}
