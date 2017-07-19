@@ -16,5 +16,4 @@ createRoom = (gamemode) ->
   client.del(code)
   
 module.exports =
-  generateRoomCode: generateRoomCode
   createRoom: createRoom
