@@ -1,6 +1,6 @@
 {
   "name": "mulberry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A libre mobile party game platform.",
   "main": "./lib/index.js",
   "repository": "https://github.com/dane-johnson/mulberry",
