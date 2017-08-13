@@ -12,5 +12,5 @@
 
 # Tech
 - Socket.io for web sockets
-- React for client side?
+- ~React for client side?~ Too limiting, I'll let user figure this out by herself
 - NPM package distribution (Script kiddies will love me)
