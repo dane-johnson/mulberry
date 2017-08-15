@@ -1,8 +1,8 @@
 1. Client fires connect.
 2. If client has saved id
-  2.1 Client fires init with id
+  2.1 Client fires 'player' with id
 3. Else
-  3.1 Client fires init  with blank
+  3.1 Client fires 'player' with blank
 4. If Server recieves non-blank id and has a player associated with it
   4.1 Server associates client with players
 5. Else
